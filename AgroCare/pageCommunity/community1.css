@@ -1,0 +1,270 @@
+
+.list1{
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.flex1{
+width: 1000px;
+    display: flex;
+    gap:20px;
+    margin-left: 210px;
+}
+.opt{
+    border: none;
+}
+.f1{
+    display: flex;
+    gap: 20px;
+}
+.f2{
+    display: flex;
+    margin-left:500px;
+    justify-self: flex-end;
+    gap: 5px;
+}
+/* .list{
+    padding-left: 5px;
+} */
+  
+
+
+
+.navbar2{
+    display: flex;
+    list-style: none;
+    width: 1400px;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+.nav1{
+    margin-top: 50px;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    font-size: 18px; 
+}
+.navbar1{
+    display: flex;
+    width:1400px;
+    justify-content: space-evenly;
+    gap: 150px;
+
+}
+
+.logo1{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.itemname1{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    margin-left: 210px;
+}
+
+
+
+
+
+/* .head{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(38, 192, 38);
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+} */
+
+.sec1{
+
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec23{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.BG-Div{
+    width: 700px;
+    height: 100%;
+    margin: 0;
+    /* background-color: aqua; */
+    border: 1px solid black;
+}
+
+/* Style for the plant container */
+#plantContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.your_plant {
+    border: 2px solid rgb(4, 46, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+
+  }
+  
+  .your_plant_img {
+    /* border: 2px solid green;  */
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    padding-top: 10px;
+  }
+
+  .name1{
+    margin-top: 20px;
+    height: auto;
+    width: 500px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: rgb(9, 77, 9);
+    text-align: justify;
+}
+.profdiv
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lcs{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+  /* Style for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Style for the modal content */
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Style for the close button */
+.close {
+    color: #aaa;
+    font-size: 28px;
+    align-self: flex-end;
+}
+
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* Style for the input field and button in the modal */
+#plantNameInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addPlantName {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the "Add Plant" button outside the modal */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+
+}
+
+#addPlantButton {
+    margin-top: 50px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    
+}
+.butto{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name2{
+    text-align: center;
+}
+.footer{
+    margin-top: 50px;
+    background: rgb(91,182,30);
+    background: linear-gradient(90deg, rgba(91,182,30,1) 0%, rgba(150,196,60,1) 100%);
+
+}
+.btn-black {
+    background-color: #000; /* Black color */
+    color: #fff; /* Text color */
+}
+.btn-black:hover {
+    opacity: 0.8;
+    background-color: #000; /* Black color */
+    color: #fff; /* Text color */
+}
+
+.footerlogo{
+    list-style: none;
+}
